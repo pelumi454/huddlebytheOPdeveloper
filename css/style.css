@@ -1,0 +1,241 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    
+}
+.servos{
+    min-height: 650px;
+    padding-left: 40px;
+    padding-right: 10px;
+    background-color: #edfbfe;
+    background-image: url('../images/bg-hero-desktop.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.army{
+    max-height: 2000px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.buton{
+    width: 190px;
+    height: 45px;
+    background-color: white;
+    color: #1c3d46;
+    border: 0;
+    border-radius: 70px;
+    float: right;
+    font-weight: bold;
+}
+
+.dash{
+  width: 100%; 
+}
+
+.build{
+   
+    max-width: 500px;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 100px;
+    color: #1c3d46;
+}
+
+
+.best{
+    margin-top: 20px;
+    width: 280px;
+    height: 45px;
+    background-color: #fe52c0;
+    font-weight: bold;
+    color: white;
+    border: 0;
+    border-radius: 70px;
+}
+
+.huddle{
+    color: #1c3d46;
+    padding-top: 20px;
+    font-size: 18px;
+    max-width: 600px;
+    
+}
+
+
+.bentley{
+    margin-top: 140px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 40px;
+}
+
+.second{
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 40px;
+}
+
+.enny{
+    width: 100%;
+    padding: 40px;
+}
+
+.faith{
+    padding-top: 90px;
+}
+
+.ray{
+    font-size: 30px;
+    color: #1c3d46;
+    font-weight: bold;
+
+}
+
+.nini{
+    margin: 10px;
+    box-shadow: 0 0 5px 5px #f9f8fe;
+    border-radius: 10px;
+    border: 0px;
+    text-align: justify;
+    padding: 50px;
+   
+}
+
+.parag{
+    font-size: 18px;
+    color: darkgrey;
+}
+
+.holy{
+    background-color: white;
+    text-align: center;
+    margin-left: 300px;
+    margin-bottom: -100px;
+    padding: 30px;
+    width: 600px;
+    height: 300px;
+    box-shadow: 0px 0px 0px 5px #f9f8fe; 
+    border-radius: 10px;
+    z-index: 10;
+    color: #1c3d46;
+    
+}
+
+
+.text-b{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.best-b{
+    margin-top: 20px;
+    width: 350px;
+    height: 70px;
+    background-color: #fe52c0;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    border: 0;
+    border-radius: 70px;
+}
+
+.footer{
+    padding-left: 80px;
+    padding-right: 60px;
+    padding-bottom: 60px;
+    padding-top: 200px;
+    color: white;
+    background-color: #00252e;
+    margin: 0;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+@media (max-width: 600px) {
+    .servos{
+        min-height: 605px;
+        margin: 0;
+        padding: 30px;
+    }
+
+    .army{
+        padding-top: 10px;
+    }
+
+    .logo-img{
+        width: 45%;
+       float: left;
+       
+    }
+
+    .buton{
+        width: 150px;
+        height: 30px;
+    }
+
+    .femi{
+        text-align: center;
+        padding: 10px;
+    }
+
+    .illux{
+        padding-top: 30px;
+
+    }
+
+    .nini{
+        margin: -10px;
+        box-shadow: 0 0 5px 5px #f9f8fe;
+        border-radius: 10px;
+        border: 0px;
+        text-align: center;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .ray{
+        margin-bottom: 30px;
+        font-size: 31px;
+    }
+
+    .parag{
+        font-size: 19px;
+        color: darkgrey;
+    }
+    
+    .holy{
+        width: 80%;
+        display: block;
+        margin-left: 40px;
+       
+    }
+
+    .best-b{
+    margin-top: 20px;
+    width: 200px;
+    height: 40px;
+    background-color: #fe52c0;
+    font-weight: bold;
+    font-size: 12px;
+    color: white;
+    border: 0;
+    border-radius: 70px;
+    
+    }
+
+    .text-b{
+        font-size: 23px;
+    }
+
+    .footer{
+        text-align: center;
+    }
+}
+
+
+
+
